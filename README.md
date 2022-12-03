@@ -1,1 +1,1 @@
-# Windows-Health-Checker
+# Windows Health Checker
