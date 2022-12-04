@@ -1,0 +1,15 @@
+<Data>
+  <Events Desc="Events associated with controls">
+  </Events>
+  <Form Name="MainForm" Size="534,400" Tag="VisualStyle,DPIAware" Text="WindowsHealthChecker">
+    <MenuStrip Name="ToolStrip" ImageScalingSize="16,16" Text="ToolStrip1">
+      <ToolStripMenuItem Name="ToolStripMenuItem_Check" Text="Check">
+        <ToolStripMenuItem Name="ToolStripMenuItem_sfc_scannow" Text="Scan system file integrity" />
+      </ToolStripMenuItem>
+    </MenuStrip>
+    <StatusStrip Name="StatusStrip" ImageScalingSize="16,16" Text="StatusStrip" />
+    <Panel Name="Panel" Dock="Fill">
+      <RichTextBox Name="RichTextBox1" Dock="Fill" WordWrap="False" />
+    </Panel>
+  </Form>
+</Data>
