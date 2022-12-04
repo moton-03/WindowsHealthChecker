@@ -1,15 +1,23 @@
 <Data>
   <Events Desc="Events associated with controls">
+    <ToolStripMenuItem Name="ToolStripMenuItem_sfc_scannow" Root="Form|MainForm" Events="Click" />
+    <ToolStripMenuItem Name="ToolStripMenuItem_mrt" Root="Form|MainForm" Events="Click" />
   </Events>
   <Form Name="MainForm" Size="534,400" Tag="VisualStyle,DPIAware" Text="WindowsHealthChecker">
-    <MenuStrip Name="ToolStrip" ImageScalingSize="16,16" Text="ToolStrip1">
+    <MenuStrip Name="ToolStrip" ImageScalingSize="16,16" Text="ToolStrip">
       <ToolStripMenuItem Name="ToolStripMenuItem_Check" Text="Check">
         <ToolStripMenuItem Name="ToolStripMenuItem_sfc_scannow" Text="Scan system file integrity" />
+        <ToolStripMenuItem Name="ToolStripMenuItem_mrt" Text="Launch the Malicious Software Removal Tool" />
+      </ToolStripMenuItem>
+      <ToolStripMenuItem Name="ToolStripMenuItem_Help" Text="Help">
+        <ToolStripMenuItem Name="ToolStripMenuItem_Wiki" Text="Wiki" />
+        <ToolStripSeparator Name="ToolStripSeparator1" />
+        <ToolStripMenuItem Name="ToolStripMenuItem_About" Text="About" />
       </ToolStripMenuItem>
     </MenuStrip>
     <StatusStrip Name="StatusStrip" ImageScalingSize="16,16" Text="StatusStrip" />
     <Panel Name="Panel" Dock="Fill">
-      <RichTextBox Name="RichTextBox1" Dock="Fill" WordWrap="False" />
+      <RichTextBox Name="Text" Dock="Fill" WordWrap="False" />
     </Panel>
   </Form>
 </Data>
